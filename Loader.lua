@@ -1,1 +1,6 @@
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/cd95e464097c3c2796070eb1c2053d67.lua"))()
+if game.PlaceId == "13127800756" then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/zicus-scripts/SkullHub/main/AWS.lua"))()
+elseif game.PlaceId == "4924922222" then
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/zicus-scripts/SkullHub/main/AWS.lua"))()
+else
+end
